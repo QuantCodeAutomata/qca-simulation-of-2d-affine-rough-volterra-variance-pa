@@ -1,0 +1,191 @@
+{
+  "M": 500,
+  "n": 200,
+  "T": 1.0,
+  "x0": 1.0,
+  "perturbations": [
+    0.8,
+    0.9,
+    1.0,
+    1.1,
+    1.2
+  ],
+  "beta": 0.5,
+  "kappa": 0.3,
+  "results": {
+    "power_gamma0.2": {
+      "gamma": 0.2,
+      "utility": "power",
+      "dominance_table": {
+        "0.8": {
+          "mean_utility": 5.041862505905414,
+          "ci_low": 5.028755625180075,
+          "ci_high": 5.054969386630752,
+          "n_negative_wealth": 0
+        },
+        "0.9": {
+          "mean_utility": 5.043302001830101,
+          "ci_low": 5.028523705352558,
+          "ci_high": 5.058080298307644,
+          "n_negative_wealth": 0
+        },
+        "1.0": {
+          "mean_utility": 5.0444394565198785,
+          "ci_low": 5.0279702235190955,
+          "ci_high": 5.060908689520661,
+          "n_negative_wealth": 0
+        },
+        "1.1": {
+          "mean_utility": 5.045264124602747,
+          "ci_low": 5.027079468638073,
+          "ci_high": 5.0634487805674215,
+          "n_negative_wealth": 0
+        },
+        "1.2": {
+          "mean_utility": 5.045761908774211,
+          "ci_low": 5.0258313994935495,
+          "ci_high": 5.065692418054873,
+          "n_negative_wealth": 0
+        }
+      }
+    },
+    "power_gamma0.6": {
+      "gamma": 0.6,
+      "utility": "power",
+      "dominance_table": {
+        "0.8": {
+          "mean_utility": 1.7303374238193596,
+          "ci_low": 1.7037967311883198,
+          "ci_high": 1.7568781164503995,
+          "n_negative_wealth": 0
+        },
+        "0.9": {
+          "mean_utility": 1.7328198586057781,
+          "ci_low": 1.702751632710663,
+          "ci_high": 1.7628880845008932,
+          "n_negative_wealth": 0
+        },
+        "1.0": {
+          "mean_utility": -19999998.26595661,
+          "ci_low": -59199998.27276768,
+          "ci_high": 19200001.740854457,
+          "n_negative_wealth": 1
+        },
+        "1.1": {
+          "mean_utility": -39999998.26506477,
+          "ci_low": -95381593.79384142,
+          "ci_high": 15381597.263711892,
+          "n_negative_wealth": 2
+        },
+        "1.2": {
+          "mean_utility": -79999998.26469749,
+          "ci_low": -158163971.65144667,
+          "ci_high": -1836024.877948314,
+          "n_negative_wealth": 4
+        }
+      }
+    },
+    "exponential_gamma0.2": {
+      "gamma": 0.2,
+      "utility": "exponential",
+      "dominance_table": {
+        "0.8": {
+          "mean_utility": -4.005802795389664,
+          "ci_low": -4.048795086354994,
+          "ci_high": -3.9628105044243345,
+          "n_negative_wealth": 14
+        },
+        "0.9": {
+          "mean_utility": -4.00114872847968,
+          "ci_low": -4.049505362375135,
+          "ci_high": -3.952792094584225,
+          "n_negative_wealth": 24
+        },
+        "1.0": {
+          "mean_utility": -3.997427708762251,
+          "ci_low": -4.051164221926816,
+          "ci_high": -3.9436911955976863,
+          "n_negative_wealth": 32
+        },
+        "1.1": {
+          "mean_utility": -3.9946371089176758,
+          "ci_low": -4.053774316622724,
+          "ci_high": -3.935499901212627,
+          "n_negative_wealth": 41
+        },
+        "1.2": {
+          "mean_utility": -3.9927749216053336,
+          "ci_low": -4.0573389275064455,
+          "ci_high": -3.9282109157042218,
+          "n_negative_wealth": 52
+        }
+      }
+    },
+    "exponential_gamma0.6": {
+      "gamma": 0.6,
+      "utility": "exponential",
+      "dominance_table": {
+        "0.8": {
+          "mean_utility": -0.887853605807593,
+          "ci_low": -0.8973824973944251,
+          "ci_high": -0.8783247142207609,
+          "n_negative_wealth": 0
+        },
+        "0.9": {
+          "mean_utility": -0.8868220697338612,
+          "ci_low": -0.8975399242967993,
+          "ci_high": -0.8761042151709232,
+          "n_negative_wealth": 0
+        },
+        "1.0": {
+          "mean_utility": -0.8859973359808161,
+          "ci_low": -0.8979075970230213,
+          "ci_high": -0.8740870749386109,
+          "n_negative_wealth": 0
+        },
+        "1.1": {
+          "mean_utility": -0.8853788222244166,
+          "ci_low": -0.8984861032814744,
+          "ci_high": -0.8722715411673587,
+          "n_negative_wealth": 0
+        },
+        "1.2": {
+          "mean_utility": -0.884966083553942,
+          "ci_low": -0.8992761702887806,
+          "ci_high": -0.8706559968191034,
+          "n_negative_wealth": 0
+        }
+      }
+    },
+    "log": {
+      "utility": "log",
+      "dominance_table": {
+        "0.8": {
+          "mean_utility": 0.03739844258495468,
+          "ci_low": 0.026960490623675337,
+          "ci_high": 0.04783639454623402
+        },
+        "0.9": {
+          "mean_utility": 0.03855446896377394,
+          "ci_low": 0.026791954751719464,
+          "ci_high": 0.05031698317582841
+        },
+        "1.0": {
+          "mean_utility": 0.03947728264929536,
+          "ci_low": 0.02637774878728666,
+          "ci_high": 0.05257681651130407
+        },
+        "1.1": {
+          "mean_utility": 0.04016182898725499,
+          "ci_low": 0.02570985983535691,
+          "ci_high": 0.05461379813915307
+        },
+        "1.2": {
+          "mean_utility": 0.04060162694566782,
+          "ci_low": 0.024778486252342077,
+          "ci_high": 0.05642476763899355
+        }
+      }
+    }
+  }
+}

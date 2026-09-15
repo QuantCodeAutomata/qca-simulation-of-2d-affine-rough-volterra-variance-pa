@@ -1,0 +1,53 @@
+{
+  "n": 200,
+  "T": 1.0,
+  "gamma": 0.2,
+  "zeta_assumption": [
+    0.0,
+    0.0
+  ],
+  "exponential": {
+    "psi_min": -0.024475563912436608,
+    "psi_max": 0.0,
+    "all_nonpositive": true
+  },
+  "power": {
+    "psi_min": 0.0,
+    "psi_max": 0.0011927860244683583,
+    "all_nonnegative": true
+  },
+  "grid_refinement_power": {
+    "200": {
+      "psi_min": 0.0,
+      "psi_max": 0.0011927860244683583,
+      "all_nonneg": true
+    },
+    "400": {
+      "psi_min": 0.0,
+      "psi_max": 0.0011927845300408904,
+      "all_nonneg": true
+    },
+    "800": {
+      "psi_min": 0.0,
+      "psi_max": 0.0011927840344559053,
+      "all_nonneg": true
+    }
+  },
+  "zeta_sensitivity_exponential": {
+    "0.0": {
+      "psi_min": -0.024475563912436608,
+      "psi_max": 0.0,
+      "all_nonpos": true
+    },
+    "0.01": {
+      "psi_min": -0.014686066342899933,
+      "psi_max": 0.0,
+      "all_nonpos": true
+    },
+    "-0.01": {
+      "psi_min": -0.03426409108237183,
+      "psi_max": 0.0,
+      "all_nonpos": true
+    }
+  }
+}

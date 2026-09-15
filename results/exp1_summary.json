@@ -1,0 +1,50 @@
+{
+  "n": 200,
+  "T": 1.0,
+  "n_paths": 5,
+  "alpha": [
+    0.6,
+    0.9
+  ],
+  "hurst": [
+    0.09999999999999998,
+    0.4
+  ],
+  "beta": 0.5,
+  "kappa": 0.3,
+  "roughness_diagnostics": {
+    "component_1": {
+      "MAI_lag1": 0.1916317211117887,
+      "MAI_lag2": 0.23375702393701292,
+      "MAI_lag4": 0.2659827651761367,
+      "MAI_lag8": 0.3095243871802605,
+      "realized_QV": 12.38250732674443,
+      "hurst_surrogate": 0.22614731216010467
+    },
+    "component_2": {
+      "MAI_lag1": 0.021603910945513234,
+      "MAI_lag2": 0.031734594934625215,
+      "MAI_lag4": 0.04948525846441485,
+      "MAI_lag8": 0.08313461555011556,
+      "realized_QV": 0.1471615017443878,
+      "hurst_surrogate": 0.647341279894874
+    }
+  },
+  "positivity_report": {
+    "component_1": {
+      "n_negative": 0,
+      "min_value": 0.01,
+      "positivity_fix": "full truncation sqrt(max(V, 0)) applied"
+    },
+    "component_2": {
+      "n_negative": 0,
+      "min_value": 0.03,
+      "positivity_fix": "full truncation sqrt(max(V, 0)) applied"
+    }
+  },
+  "hurst_surrogate": {
+    "component_1": 0.22614731216010467,
+    "component_2": 0.647341279894874
+  },
+  "qualitative_rougher_comp1": true
+}
